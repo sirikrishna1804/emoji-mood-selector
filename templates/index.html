@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Mood Selector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emoji Mood Selector</h1>
+        <p class="subtitle">Choose a mood and get a fun quote or GIF!</p>
+        <div class="mood-options">
+            <button class="mood-btn" data-mood="happy">😊 Happy</button>
+            <button class="mood-btn" data-mood="sad">😢 Sad</button>
+            <button class="mood-btn" data-mood="angry">😠 Angry</button>
+        </div>
+        <div id="result" class="result hidden">
+            <p id="quote" class="quote"></p>
+        </div>
+        <p id="error" class="error"></p>
+    </div>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>

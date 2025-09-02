@@ -1,0 +1,59 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f9fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mood-options {
+  margin: 1.5rem 0;
+}
+
+.mood-btn {
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.mood-btn:hover {
+  background: #e6ecf1;
+}
+
+.result {
+  margin-top: 1.5rem;
+}
+
+.quote {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.gif {
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: #d63031;
+  margin-top: 1rem;
+}
